@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Joseann Boneo</title>
+    <link rel="stylesheet" href="styleSheet2.css">
+    <script src="functionality.js" defer>
+        
+    </script>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul style="text-align:center"><p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+            </ul>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Hi, I'm Joseann Boneo!</h1>
+        <p> This is my personal website where I showcase my skills, projects, and experiences.</p>
+        <a id="more" href="https://www.linkedin.com/in/joseann-boneo-54056a248" class="btn">Learn More</a>
+    </section>
+    <h2>About Me</h2>
+    <section id="about">
+        <img id="profile" src="profile.jpg" alt="Profile picture of Joseann Boneo wearing a graduation gown">
+        <div class="text">
+            <p>An aspiring Software Engineer based in Trinidad and Tobago. Currently, I am an Upper Form 6 student
+                studying Computer Science, Information Technology and Pure Mathematics at the CAPE Level.
+                I am also a prospective university student at NYIT for fall 2023.
+            </p>
+        </div>
+    </section>
+    <section class="container">
+        <a href="#portfolio" class="btn"></a>
+        <h2>My Portfolio</h2>
+        <div id=text1><p><br>I am passionate about Software Development and gradually building a strong expertise in coding. I
+            have worked on various projects, including Mobile App Development using Thunkable to creating programs
+            using C. I believe in continuous learning and strive to improve my skills every day.</p>
+        </div>
+        <ul>
+            <li>
+                <h3>Schomoply</h3>
+                <video width="242px" hieght="540" autoplay muted>
+                    <source src="projects1.mp4" type="video/mp4">
+                </video>
+                <p>I developed this prototype for the CARIRI and Republic Bank's Power Up Competition in 2022. This idea
+                    was used to showcase relevent problem I experienced with the Form 6 Admission problem across the
+                    country.</p>
+            </li>
+            <li>
+                <h3>Trinbago and Me</h3>
+                <video width="242px" hieght="540" autoplay muted>
+                    <source src="project2.mp4" type="video/mp4">
+                </video>
+                <p>I developed this prototype with my team called "Hacking Titanz", for the DIA Lab Regional Hackathon
+                    2023. This app serves to showcase the may wonders available across Trinidad and Tobago while promoting a safe tourism experience.</p>
+            </li>
+
+        </ul>
+    </section>
+    <section class="container">
+        <h2>My Interest</h2>
+        <ul>
+            <li>
+                <h3>Archery</h3>
+                <img src="archery.jpeg" alt="Arrows in an archery target">
+                <p>I participated in an Intramural Archery Class for 1 and a half years before the pandemic. I hope to
+                    continue this sport in the upcoming months</p>
+            </li>
+            <li>
+                <h3>Gaming</h3>
+                <img src="gaming.jpeg" alt="A black ps3 controller">
+                <P>I also enjoyed gaming whether it was an Open World RPG or simply a fighting game.</P>
+            </li>
+            <li>
+                <h3>Community Service</h3>
+                <img src="service.jpeg" alt="Group of people hold seedlings together">
+                <p>I participated in many club and extracurricular activities at all the secondary schools I attended. I
+                    was a Unit 9 Youth Red Cross Cadet, A ChildLine Ambassador and assisted in many fundraising and
+                    donation drives.</p>
+            </li>
+        </ul>
+
+    </section>
+    <a href="#contact" class="btn"></a>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>If you would like to get in touch with me, please feel free to reach out to me using the contact form below
+            or through my social media profiles.</p><br><br>
+
+        <div>
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="message">Your Message</label>
+                <input type="text" id="message" name="message" placeholder="Your message..">
+
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="Caribbean">Caribbean</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="usa">Other</option>
+                </select>
+                <br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <!-- Back to top button -->
+        <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+            <i class="arrow right"></i>
+        </button>
+
+    </section>
+    <footer>
+        <p>&copy; 2023 Joseann D.M Boneo . All rights reserved.</p>
+    </footer>
+</body>
+
+</html>

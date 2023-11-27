@@ -6,7 +6,6 @@
     <title>Joseann Boneo</title>
     <link rel="stylesheet" href="styleSheet2.css">
     <script src="functionality.js" defer>
-        
     </script>
 
 </head>
@@ -19,26 +18,40 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
             </ul>
         </nav>
     </header>
     <section id="home">
-        <h1>Hi, I'm Joseann Boneo!</h1>
-        <p> This is my personal website where I showcase my skills, projects, and experiences.</p>
-        <a id="more" href="https://www.linkedin.com/in/joseann-boneo-54056a248" class="btn">Learn More</a>
+        <div class="left">
+            <ul>
+                <li>
+        <h2>Hello,it's me</h2>
+        <h1>Joseann Boneo!</h1>
+        <p> This is my personal website where I showcase my skills, projects, and experiences.<br>
+            An aspiring Software Engineer based in Trinidad and Tobago. Currently, I am an Upper Form 6 student
+            studying Computer Science, Information Technology and Pure Mathematics at the CAPE Level.
+            I am also a prospective university student at NYIT for fall 2023.
+        </br></p>
+        <div class="format">
+            <ul>
+                <li>
+                    <a id="more" href="https://www.linkedin.com/in/joseann-boneo-54056a248" class="btn">LinkedIn</a>
+                </li>
+                <li>
+                    <a id="more" href="https://github.com/J-O-S-I-E" class="btn">GitHub</a>
+                </li>
+            </ul>
+    
+        </div></li>
+        <li>
+            <img class=profile src="profile.jpg" alt="Profile picture of Joseann Boneo wearing a graduation gown">
+        </li>
+    </ul>
+    </div>
     </section>
-    <h2>About Me</h2>
-    <section id="about">
-        <img id="profile" src="profile.jpg" alt="Profile picture of Joseann Boneo wearing a graduation gown">
-        <div class="text1">
-            <p>An aspiring Software Engineer based in Trinidad and Tobago. Currently, I am an Upper Form 6 student
-                studying Computer Science, Information Technology and Pure Mathematics at the CAPE Level.
-                I am also a prospective university student at NYIT for fall 2023.
-            </p>
-        </div>
-    </section>
+
     <section class="container">
         <a href="#portfolio" class="btn"></a>
         <h2>My Portfolio</h2>
@@ -52,6 +65,7 @@
                 <video width="242px" hieght="540" autoplay muted>
                     <source src="projects1.mp4" type="video/mp4">
                 </video>
+                <br><br>
                 <p>I developed this prototype for the CARIRI and Republic Bank's Power Up Competition in 2022. This idea
                     was used to showcase relevent problem I experienced with the Form 6 Admission problem across the
                     country.</p>
@@ -61,6 +75,7 @@
                 <video width="242px" hieght="540" autoplay muted>
                     <source src="project2.mp4" type="video/mp4">
                 </video>
+                <br><br>
                 <p>I developed this prototype with my team called "Hacking Titanz", for the DIA Lab Regional Hackathon
                     2023. This app serves to showcase the many wonders available across Trinidad and Tobago while promoting a safe tourist experience.</p>
             </li>
@@ -73,17 +88,20 @@
             <li>
                 <h3>Archery</h3>
                 <img src="archery.jpeg" alt="Arrows in an archery target">
+                <br><br>
                 <p>I participated in an Intramural Archery Class for 1 and a half years before the pandemic. I hope to
                     continue this sport in the upcoming months</p>
             </li>
             <li>
                 <h3>Gaming</h3>
                 <img src="gaming.jpeg" alt="A black ps3 controller">
+                <br><br>
                 <P>I also enjoy gaming whether it was an Open World RPG or simply a fighting game.</P>
             </li>
             <li>
                 <h3>Community Service</h3>
                 <img src="service.jpeg" alt="Group of people hold seedlings together">
+                <br><br>
                 <p>I participated in many club and extracurricular activities at all the secondary schools I attended. I
                     was a Unit 9 Youth Red Cross Cadet, A ChildLine Ambassador and assisted in many fundraising and
                     donation drives.</p>
@@ -91,45 +109,26 @@
         </ul>
 
     </section>
-    <a href="#contact" class="btn"></a>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you would like to get in touch with me, please feel free to reach out to me using the contact form below
-            or through my social media profiles.</p><br><br>
 
-        <div>
-            <form action="/action_page.php">
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+   <!-- Back to top button -->
+   <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+    <i class="arrow right"></i>
+    </button>
 
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                <label for="message">Your Message</label>
-                <input type="text" id="message" name="message" placeholder="Your message..">
-
-
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                    <option value="Caribbean">Caribbean</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                    <option value="other">Other</option>
-                </select>
-                <br><br>
-
-                <input type="submit" value="Submit">
-            </form>
-        </div>
-        <!-- Back to top button -->
-        <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
-            <i class="arrow right"></i>
-        </button>
-
-    </section>
-    <footer>
+    <section class="footer">
         <p>&copy; 2023 Joseann D.M Boneo . All rights reserved.</p>
-    </footer>
+        <div class="format">
+            <ul><li>
+            <a href="https://www.linkedin.com/in/joseann-boneo-54056a248">
+                <img src="LinkedIn_pic.jpeg" alt="Button Image">
+              </a></li>
+              <li>
+              <a href="https://github.com/J-O-S-I-E">
+                <img src="Github_pic.jpeg" alt="Button Image">
+              </a></li>
+            </ul>
+            </div>
+        </section>
 </body>
 
 </html>

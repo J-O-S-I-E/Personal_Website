@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Joseann Boneo</title>
+    <title>Contact Joseann Boneo</title>
+    <link rel="icon" type="image/x-icon" href="assets/icon2.png">
     <link rel="stylesheet" href="styleSheet2.css">
     <script src="functionality.js" defer>
     </script>
@@ -14,12 +15,17 @@
 
     <header>
         <nav>
-            <ul style="text-align:center"><p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+            <ul style="text-align:center">
+                <li style="align-items: left;"> <img class=profile src="assets/icon3.png"
+                    alt="Profile picture of Joseann Boneo wearing a graduation gown"> </li>
+                <div id="menu">   
+                <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="index.html">Portfolio</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <p>~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</p>
+            </div> 
             </ul>
         </nav>
     </header>
@@ -29,13 +35,20 @@
         <p>If you would like to get in touch with me, please feel free to reach out to me using the contact form below
             or through my social media profiles.</p><br><br>
 
-        <div>
+        <div id="table">
             <form action="/action_page.php">
                 <label for="fname">First Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <br>
 
                 <label for="lname">Last Name</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="email">Your Email</label>
+                <input type="text" id="email" name="email" placeholder="Your email..">
+
+                <label for="topic">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Your subject..">
 
                 <label for="message">Your Message</label>
                 <input type="text" id="message" name="message" placeholder="Your message..">
@@ -44,8 +57,10 @@
                 <label for="country">Country</label>
                 <select id="country" name="country">
                     <option value="Caribbean">Caribbean</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
+                    <option value="Canada">Canada</option>
+                    <option value="USA">USA</option>
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
                     <option value="other">Other</option>
                 </select>
                 <br><br>
@@ -62,26 +77,25 @@
 
     </section>
 
-    <!-- Back to top button -->
-    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
-        <i class="arrow right"></i>
-    </button>
-
-</section>
-<section class="footer">
-    <p>&copy; 2023 Joseann D.M Boneo . All rights reserved.</p>
-    <div class="format">
-        <ul><li>
-        <a href="https://www.linkedin.com/in/joseann-boneo-54056a248">
-            <img src="LinkedIn_pic.jpeg" alt="Button Image">
-          </a></li>
-          <li>
-          <a href="https://github.com/J-O-S-I-E">
-            <img src="Github_pic.jpeg" alt="Button Image">
-          </a></li>
-        </ul>
+    </section>
+    <section class="footer">
+        <p>&copy; 2023 Joseann D.M Boneo . All rights reserved.</p>
+        <div class="format">
+            <ul>
+                <li>
+                    <a href="https://www.linkedin.com/in/joseann-boneo-54056a248">
+                        <img src="assets/LinkedIn_pic.jpeg" alt="Button Image">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/J-O-S-I-E">
+                        <img src="assets/Github_pic.jpeg" alt="Button Image">
+                    </a>
+                </li>
+            </ul>
         </div>
     </section>
 
-</body>   
-</html> 
+</body>
+
+</html>

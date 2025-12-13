@@ -92,7 +92,7 @@ main {
 }
 
 /* Hero Section */
-.hero {
+.profile {
     background: linear-gradient(135deg, #f8f9fa, #e9ecef);
     padding: 4rem 2rem;
     margin: 2rem 0;
@@ -100,14 +100,14 @@ main {
     box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
-.hero-content {
+.profile-content {
     display: grid;
     grid-template-columns: 1fr 300px;
     gap: 3rem;
     align-items: center;
 }
 
-.hero-text h1 {
+.profile-text h1 {
     font-size: 3rem;
     color: #ff6b6b;
     margin-bottom: 1rem;
@@ -116,24 +116,24 @@ main {
     -webkit-text-fill-color: transparent;
 }
 
-.hero-text h2 {
+.profile-text h2 {
     font-size: 1.5rem;
     color: #666;
     margin-bottom: 1.5rem;
 }
 
-.hero-text p {
+.profile-text p {
     font-size: 1.1rem;
     color: #555;
     margin-bottom: 2rem;
     line-height: 1.8;
 }
 
-.hero-image {
+.profile-image {
     text-align: center;
 }
 
-.hero-profile {
+.profile-profile {
     width: 250px;
     height: 250px;
     border-radius: 15px;
